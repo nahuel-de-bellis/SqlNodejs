@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head lang="es">
+        <meta charset="utf-8" />
+        <title>Estructura</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#000000">
+        <link rel="manifest" href="manifest.json">
+        <link rel="shortcut icon" href="favicon.ico">
+    </head>
+    <body>
+        <h1>NHDB!</h1>
+
+        <form action="/show" method="POST">
+            <input type="text" placeholder="Name" name="txtName" id="txtName"/>            
+            <input type="text" placeholder="Password" name="txtPassword" id="txtPassword"/>
+            <input type="submit" value="Show" id="btnShow"/>
+        </form>
+
+        <form action="/add" method="POST">
+            <input type="submit" value="Add" id="btnAdd"/>
+        </form>
+
+    </body>
+</html>
